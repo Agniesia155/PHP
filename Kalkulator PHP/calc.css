@@ -1,0 +1,35 @@
+body{
+    background-color: LightGoldenrodYellow;
+    font-family: Arial;
+}
+
+
+.conteiner h1 {
+	display: center;
+	font-size: 28;
+	color: SteelBlue;
+	
+}
+
+.conteiner h2{
+	margin: 15px;
+	font-size: 24;
+	font-style: italic;
+	color: Teal;
+
+}
+
+.conteiner b {
+	margin: 15px 5px 15px 20px;
+}
+
+.button{
+	display: inline-block;
+	margin-left:10px;
+
+}
+
+	
+	
+
+

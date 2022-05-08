@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Kalkulator </title>
+	<link href="calc.css" rel="stylesheet">
+</head>
+<body>
+<?php include('kalkulator.php'); ?>
+	<div class="container">
+		<form action="kalkulator.php" method="GET">
+
+	<div class="conteiner">
+	<h1> Kalkulator </h1>
+		<b> Podaj pierwszą liczbę: </b> <input type="text" name="liczba1">  
+		<b> Podaj drugą liczbę: </b> <input type="text" name="liczba2"> 
+
+	<div class="button"> <input type= 'submit' value='OK'> </div>
+
+<br>
+<br>
+<h2>  Wybierz działanie </h2> <br>
+<input type="radio" name="opcja" value="1" >Dodawanie <br>
+<input type="radio" name="opcja" value="2" >Odejmowanie <br>
+<input type="radio" name="opcja" value="3">Mnożenie <br>
+<input type="radio" name="opcja" value="4">Dzielenie <br>
+<input type="radio" name="opcja" value="5">Dzielenie z resztą <br>
+<input type="radio" name="opcja" value="6"> Potęgowanie <br>
+<input type="radio" name="opcja" value="7">Pierwiastkowanie (potrzebna tylko pierwsza liczba) <br>
+</form>
+</div>
+
+</body>
+</html>
